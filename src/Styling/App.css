@@ -19,8 +19,16 @@
 }
 
 .card_day1{
-    margin-top:40px;
+    margin-top:140px;
     margin-left: 20%;
+    background:black;
+    color: white;
+    text-align: center;
+}
+
+.card_day2{
+    margin-top:380px;
+    margin-left: 80%;
     background:black;
     color: white;
     text-align: center;
@@ -28,5 +36,10 @@
 
 a{
     text-decoration: none;
+    color: white;
+}
+
+body{
+    background: black;
     color: white;
 }

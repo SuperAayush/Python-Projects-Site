@@ -4,6 +4,8 @@ import "../Styling/Day1.css"
 const Day1 = () => {
     return (
         <div className="day1">
+
+        
             <p>
                 print("Welcome to band name creator")<br />
                 # BAND NAME CREATOR<br />
@@ -14,5 +16,6 @@ const Day1 = () => {
         </div>
     )
 }
+
 
 export default Day1
