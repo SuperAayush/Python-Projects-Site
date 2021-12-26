@@ -1,0 +1,79 @@
+.day1{
+    margin-top:50px;
+}
+
+.day1-heading{
+    text-align: center;
+    font-size:5rem;
+}
+
+.in1,.in2{
+margin-left:36%;
+height:35px;
+width:250px;
+outline:none;
+margin-top: 10px;
+font-size:1rem;
+}
+
+.text-input1,.text-input2{
+    text-align: center;
+    margin-top:10px;
+    font-size:3rem;
+}
+
+.btn1,.btn2{
+    margin-left:2%;
+    background:yellow;
+    color:red;
+    height:40px;
+    width:100px;
+    font-size:1.5rem;
+    vertical-align: bottom;
+    border: 1px solid red;
+}
+
+.btn1:hover,.btn2:hover{
+    background:red;
+    color:yellow;
+    border: 2px solid yellow;
+}
+
+.intro-band{
+    margin-top:30px;
+    font-size:4rem;
+    text-align:center;
+}
+
+.bandname{
+    font-size:3rem;
+    text-align:center;
+}
+
+.scroll-code{
+    font-size:1rem;
+    text-align:center;
+    margin-top:10px;
+}
+
+.day1-code{
+    margin-top:120px;
+    font-size:2rem;
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.down-arrow{
+    text-align:center;
+    font-size:2rem;
+    animation:Try 1s alternate ease-in-out infinite;
+}
+
+@keyframes Try {
+    from{
+      transform: translateY(0%);
+  }
+  to{
+      transform: translateY(50%);
+    }
+  }
