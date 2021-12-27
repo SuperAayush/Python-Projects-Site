@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import "../Styling/Day1.css"
+import Header from "../Components/Header"
 
 const Day1 = () => {
     const[data1,setData1] =useState(" ")
@@ -21,6 +22,7 @@ const Day1 = () => {
 
     return (
         <div className="day1">
+        <Header />
         <h1 className="day1-heading"> Welcome to Band Name Creator</h1>
         <p className="text-input1">Enter your City Name here</p>
         <input className="in1" type="text" onChange={Input1} placeholder="City Name"/>
