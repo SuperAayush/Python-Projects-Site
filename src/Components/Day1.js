@@ -20,7 +20,7 @@ const Day1 = () => {
         console.log(str)
     }
 
-    return (
+    return (    
         <div className="day1">
         <Header />
         <h1 className="day1-heading"> Welcome to Band Name Creator</h1>
