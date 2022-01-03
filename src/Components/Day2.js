@@ -29,7 +29,7 @@ const Input1 = (e) => {
     }
     var per=data2/100;
     var amount=data1*per;
-    var total= data1 + amount;
+    var total= parseInt(data1) + parseInt( amount);
     var ans=total/data3;
 
     return (
