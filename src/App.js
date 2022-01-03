@@ -15,7 +15,14 @@ const App = () => {
       <a href="/day2"> <div id="card" className="card_day2" data-aos="fade-up-left">
          Day-2
       </div></a>  
+        <a href="/day3"> <div id="card" className="card_day3" data-aos="fade-up-right">
+         Day-3
+      </div></a>  
+      <a href="/day4"> <div id="card" className="card_day4" data-aos="fade-up-left">
+         Day-4
+      </div></a>
      <img id="background" src={background} alt="" />
+     <img id="background" src={background} alt="" /> 
     </div>
     
   )
