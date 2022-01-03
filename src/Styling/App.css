@@ -34,6 +34,22 @@
     text-align: center;
 }
 
+.card_day3{
+    margin-top:620px;
+    margin-left: 20%;
+    background:black;
+    color: white;
+    text-align: center;
+}
+
+.card_day4{
+    margin-top:860px;
+    margin-left: 80%;
+    background:black;
+    color: white;
+    text-align: center;
+}
+
 a{
     text-decoration: none;
     color: white;
